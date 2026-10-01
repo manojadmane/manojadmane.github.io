@@ -3793,3 +3793,182 @@ body.dark-mode footer a {
 }
 
 /* ================= DARK MODE END ================= */
+
+/* Single-page portfolio section navigation */
+section[id] { scroll-margin-top: 95px; }
+html { scroll-behavior: smooth; }
+
+/* =====================================================
+   COMPLETE DARK MODE OVERRIDES
+   Works with the existing body.dark class in script.js
+   ===================================================== */
+body.dark {
+    background: #0b1020 !important;
+    color: #e5e7eb;
+    color-scheme: dark;
+}
+
+body.dark .header,
+body.dark header.header,
+body.dark .navbar,
+body.dark .navbar.active {
+    background: rgba(17, 24, 39, 0.97) !important;
+    color: #f8fafc !important;
+    border-color: #293449;
+}
+
+body.dark .logo,
+body.dark .navbar a,
+body.dark .hero-left h3,
+body.dark .section-heading h2,
+body.dark .tool-title h3,
+body.dark .journey-card h3,
+body.dark .journey-card h4,
+body.dark .about-left h1,
+body.dark .about-details h2,
+body.dark .about-details h3,
+body.dark .education h2,
+body.dark .skills h2,
+body.dark .projects-hero h1,
+body.dark .project-content h2,
+body.dark .contact-content h1,
+body.dark .contact-info h2,
+body.dark .contact-form-box h2,
+body.dark .footer h2,
+body.dark .footer h3,
+body.dark .footer h4 {
+    color: #f8fafc !important;
+}
+
+body.dark section,
+body.dark .hero,
+body.dark .tools,
+body.dark .journey,
+body.dark .about-hero,
+body.dark .about-details,
+body.dark .education,
+body.dark .skills,
+body.dark .current-project,
+body.dark .quick-stats,
+body.dark .projects-hero,
+body.dark .featured-project,
+body.dark .contact-hero,
+body.dark .contact-section,
+body.dark .feedback {
+    background-color: #0b1020 !important;
+    color: #e5e7eb;
+}
+
+body.dark .tool-card,
+body.dark .journey-card,
+body.dark .skill-card,
+body.dark .skill-item,
+body.dark .project-card,
+body.dark .project-container,
+body.dark .contact-info,
+body.dark .contact-form-box,
+body.dark .info-card,
+body.dark .story-card,
+body.dark .expertise,
+body.dark .timeline-content,
+body.dark .stat-card,
+body.dark .feedback-left,
+body.dark .feedback-right,
+body.dark .feedback-box,
+body.dark .footer-card {
+    background: #151e31 !important;
+    color: #e5e7eb !important;
+    border-color: #2b3850 !important;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.18);
+}
+
+body.dark p,
+body.dark .hero-left p,
+body.dark .section-heading p,
+body.dark .tool-title span,
+body.dark .journey-card p,
+body.dark .timeline-content p,
+body.dark .about-details p,
+body.dark .project-content p,
+body.dark .contact-content p,
+body.dark .contact-info p,
+body.dark .footer p,
+body.dark .footer-location,
+body.dark .footer-links a,
+body.dark .footer-copy,
+body.dark .card-date,
+body.dark .year {
+    color: #b9c4d5 !important;
+}
+
+body.dark .tool-item,
+body.dark .skill-tag,
+body.dark .card-tags span,
+body.dark .tech-stack span {
+    background: #202c43 !important;
+    color: #e5e7eb !important;
+    border-color: #35435b !important;
+}
+
+body.dark input,
+body.dark textarea,
+body.dark select,
+body.dark .contact-form-box input,
+body.dark .contact-form-box textarea {
+    background: #0e1729 !important;
+    color: #f8fafc !important;
+    border: 1px solid #394861 !important;
+}
+
+body.dark input::placeholder,
+body.dark textarea::placeholder {
+    color: #94a3b8 !important;
+}
+
+body.dark .btn2,
+body.dark .btn-outline,
+body.dark .contact-btn {
+    color: #e9ddff !important;
+    border-color: #8b5cf6 !important;
+}
+
+body.dark .btn2:hover,
+body.dark .btn-outline:hover,
+body.dark .contact-btn:hover {
+    background: #7c4dff !important;
+    color: #ffffff !important;
+}
+
+body.dark .footer {
+    background: #080d19 !important;
+    color: #e5e7eb !important;
+    border-top: 1px solid #293449;
+}
+
+body.dark .theme-btn {
+    background: #f3e8ff !important;
+    color: #5b21b6 !important;
+    border: 1px solid #c4b5fd;
+}
+
+body.dark .navbar a:hover,
+body.dark .navbar a.active,
+body.dark .footer-links a:hover {
+    color: #b79aff !important;
+}
+
+body.dark .hero-badge span,
+body.dark .about-badge,
+body.dark .contact-badge {
+    background: #2b2050 !important;
+    color: #d8c8ff !important;
+}
+
+body.dark hr,
+body.dark .project-line {
+    border-color: #344158 !important;
+}
+
+body.dark .menu-toggle {
+    color: #f8fafc !important;
+}
